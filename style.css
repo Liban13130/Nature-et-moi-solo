@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* SECTION 1 */
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/bg.jpg);
+}
+
+.sec1 .nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.sec1 .nav img{
+    height: 100px;
+    margin: 50px 0 0 20px;
+}
+.sec1 .nav li{
+    margin: 50px 0 0 50px;
+    font-family: "Montserrat";
+}
+.sec1 .nav li a {
+    color: white;
+}
+
+
+.sec1 .title p {
+    font-family: "Abril Fatface";
+    margin-left: 100px;
+    font-size: 7em;
+    color: white;
+    line-height: 110px;
+}
+
+.sec1 .scroll{
+    color: white;
+    margin: 0 0 10px 120px;
+    font-size: 20px;
+}
+
+.sec1 .scroll a{
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sec1 .scroll i{
+    transform: translateY(10%);
+}
+
+
+/* SECTION 2 */
+
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+.sec2 .icon i{
+    color: #ADD981;
+    font-size: 50px;
+}
+.sec2 .icon p{
+    font-size: 30px;
+}
+.sec2 .icon{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+/* SECTION 3 */
+.sec3{
+    display: flex;
+    flex-direction: column;
+}
+.sec3 h1{
+    position: relative;
+    font-size: 6em;
+    margin-left: 190px;
+    margin-bottom: 50px;
+}
+.sec3 h1::before{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    background: #ADD981;
+    top: 110px;
+}
+
+.sec3 .plantes{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 80%;
+    background: #000;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.sec3 .plante1{
+    background-image: url(images/nos_meilleures_ventes/1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(245, 4, 165);
+}
+.sec3 .plante2{
+    background-image: url(images/nos_meilleures_ventes/2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(21, 255, 0);
+}
+.sec3 .plante3{
+    background-image: url(images/nos_meilleures_ventes/3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(228, 0, 30);
+}
+.sec3 .plante4{
+    background-image: url(images/nos_meilleures_ventes/4.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(78, 26, 221);
+}
+
