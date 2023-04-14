@@ -85,7 +85,7 @@
 
 /* SECTION 3 */
 .sec3{
-    margin: 100px 0;
+    margin: 150px 0;
     display: flex;
     flex-direction: column;
 }
@@ -197,3 +197,59 @@
     cursor: pointer;
 }
 
+/* SECTION 4  */
+.sec4{
+    display: flex;
+    flex-direction: column;
+}
+.sec4 h1{
+    position: relative;
+    font-size: 6em;
+    margin-left: 190px;
+    margin-bottom: 50px;
+}
+.sec4 h1::before{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    background: #ADD981;
+    top: 110px;
+}
+
+.sec4 .plantes{
+    height: 800px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: repeat(2, 50%);
+}
+
+.sec4 .plante1{
+    background-image: url(images/nos_plantes/1.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: 1 / 1 / 3 / 2;
+    height: 100%;
+    width: 95%;
+}
+.sec4 .plante2{
+    background-image: url(images/nos_plantes/2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-self: flex-start;
+    grid-area: 1 / 2 / 2 / 3;
+    height: 97%;
+}
+
+.sec4 .plante3{
+    background-image: url(images/nos_plantes/3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-self: flex-end;
+    height: 97%;
+    grid-area: 2 / 2 / 3 / 3;
+}
