@@ -217,6 +217,11 @@
     top: 110px;
 }
 
+.sec4 .plante{
+    display: flex;
+    align-items: flex-end;
+}
+
 .sec4 .plantes{
     height: 800px;
     width: 80%;
@@ -233,6 +238,9 @@
     grid-area: 1 / 1 / 3 / 2;
     height: 100%;
     width: 95%;
+    display: flex;
+    align-items: flex-end;
+
 }
 .sec4 .plante2{
     background-image: url(images/nos_plantes/2.jpg);
@@ -242,6 +250,7 @@
     align-self: flex-start;
     grid-area: 1 / 2 / 2 / 3;
     height: 97%;
+    align-items: flex-end;
 }
 
 .sec4 .plante3{
@@ -252,4 +261,149 @@
     align-self: flex-end;
     height: 97%;
     grid-area: 2 / 2 / 3 / 3;
+    align-items: flex-end;
+
+}
+
+.sec4 .price{
+    font-family: "Montserrat";
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(2, 1fr);
+    height: 80px;
+    width: 100%;
+    background: #FFFFFFDF;
+}
+
+.sec4 .price h2{
+    margin-top: 10px;
+    color: black;
+    grid-area: 1 / 1 / 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 23px;
+}
+
+.sec4 .price p{
+    color: #ADD981;
+    font-weight: bold;
+    grid-area: 2 / 1 / 4 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;
+}
+
+.sec4 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 160px;
+    margin: auto;
+    font-size: 15px;
+    grid-area: 1 / 3 / 3 / 6;
+    border-radius: 20px;
+    background: #ADD981;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* SECTION 5 */
+.sec5{
+    display: flex;
+    height: 800px;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.sec5 .plante{
+    display: flex;
+    align-items: flex-end;
+}
+
+.sec5 .plante1{
+    background-image: url(images/nos_plantes/4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 20%;
+    margin-right: 35px;
+}
+.sec5 .plante2{
+    background-image: url(images/nos_plantes/5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    margin-right: 35px;
+}
+.sec5 .plante3{
+    background-image: url(images/nos_plantes/6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 20%;
+}
+
+.sec5 .price{
+    font-family: "Montserrat";
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(2, 1fr);
+    height: 80px;
+    width: 100%;
+    background: #FFFFFFDF;
+}
+
+.sec5 .price h2{
+    margin-top: 10px;
+    color: black;
+    grid-area: 1 / 1 / 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 23px;
+}
+
+.sec5 .price p{
+    color: #ADD981;
+    font-weight: bold;
+    grid-area: 2 / 1 / 4 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;
+}
+
+.sec5 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 160px;
+    margin: auto;
+    font-size: 15px;
+    grid-area: 1 / 3 / 3 / 6;
+    border-radius: 20px;
+    background: #ADD981;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer{
+    font-family: "Montserrat";
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
 }
